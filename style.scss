@@ -8,12 +8,49 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+/* latin */
+@font-face {
+    font-family: 'Limoges';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/indieflower/v12/m8JVjfNVeKWVnh3QMuKkFcZVaUuH.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+    font-family: 'Trunks';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/permanentmarker/v10/Fh4uPib9Iyv2ucM6pGQMWimMp004La2Cfw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'LeGrosBubu';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/grandstander/v4/ga6fawtA-GpSsTWrnNHPCSIMZhhKpFjyNZIQD1--P3_ctw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
 $astymeus-color: #ECE300;
 $astymeus-secondary: #014A84;
 
 $limoges-outline-color: #ec0000;
 $limoges-color: #ECE300;
 $limoges-secondary: #020b13;
+
+$trunks-outline-color: #E76DF5;
+$trunks-color: #4223F5;
+$trunks-secondary: #F5BA40;
+
+$bubu-outline-color: #E76DF5;
+$bubu-color: #4223F5;
+$bubu-secondary: #F5BA40;
 
 
 body {
@@ -48,23 +85,25 @@ body {
                 position: relative;
                 text-align: center;
 
-                &[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] {
-                    //BUBU
+                &[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] {
+
+                    background-color: $bubu-secondary;
 
                     .avatar {
+                        content: url("https://cdn.discordapp.com/attachments/804136465445290034/814622603074601020/Logo.png");
+
                         &.speaking {
-                            outline-color: blue;
-                            outline-width: 1px;
+                            outline-color: $bubu-outline-color;
                         }
                     }
 
                     .user {
-                        background-color: blue;
+                        background-color: $bubu-secondary;
 
                         &:after {
-                            content: "LeGrosBubu";
-                            color: red;
-                            font-family: "Poppins";
+                            content: "Mr Olin";
+                            color: $bubu-color;
+                            font-family: "LeGrosBubu";
                         }
 
                         .name {
@@ -75,12 +114,23 @@ body {
 
                 &[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] {
 
-                    //TRUNKS
+                    background-color: $trunks-secondary;
+
+                    .avatar {
+                        content: url("https://cdn.discordapp.com/attachments/308263318085304321/814620832869384192/mirai-trunks-chibi-facudibuja-png-clipart.png");
+
+                        &.speaking {
+                            outline-color: $trunks-outline-color;
+                        }
+                    }
+
                     .user {
-                        background-color: red;
+                        background-color: $trunks-secondary;
 
                         &:after {
-                            content: "Gros con";
+                            content: "Mr Unks";
+                            color: $trunks-color;
+                            font-family: "Trunks";
                         }
 
                         .name {
@@ -99,18 +149,18 @@ body {
                     background-color: $astymeus-secondary;
 
                     .avatar {
-                        content:url("https://cdn.discordapp.com/attachments/359413119321112588/814617896378171492/Logo3.0_1080.png");
+                        content: url("https://cdn.discordapp.com/attachments/359413119321112588/814617896378171492/Logo3.0_1080.png");
+
                         &.speaking {
                             outline-color: $astymeus-color;
                         }
-                        filter: invert(14%) sepia(94%) saturate(2841%) hue-rotate(192deg) brightness(94%) contrast(99%);
                     }
 
                     .user {
                         background-color: $astymeus-secondary;
 
                         &:after {
-                            content: "Astymeus";
+                            content: "Mr Meus";
                             color: $astymeus-color;
                             font-family: "Astymeus";
                         }
@@ -123,21 +173,22 @@ body {
 
                 &[data-reactid=".0.0.0.$229252658488279041/=1$229252658488279041"] {
 
-                    background-color: $limoge-secondary;
+                    background-color: $limoges-secondary;
 
                     .avatar {
-                        content:url("https://cdn.discordapp.com/attachments/359413119321112588/814617896378171492/Logo3.0_1080.png");
+                        content: url("https://cdn.discordapp.com/attachments/325388975072083979/814621157474566164/YujiroHanma-removebg-preview_1.png");
+
                         &.speaking {
-                            outline-color: $limoge-outline-color;
-                        }                        
+                            outline-color: $limoges-outline-color;
+                        }
                     }
 
                     .user {
-                        background-color: $limoge-secondary;
+                        background-color: $limoges-secondary;
 
                         &:after {
-                            content: "Limoges";
-                            color: $limoge-color;
+                            content: "Mr Moges";
+                            color: $limoges-color;
                             font-family: "Limoges";
                         }
 
