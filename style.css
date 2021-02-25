@@ -58,6 +58,7 @@ body .voice-container .voice-states {
   bottom: 0;
   transform: translateX(-50%);
   left: 50%;
+  margin-bottom: 10px;
 }
 
 body .voice-container .voice-states .voice-state {
@@ -71,24 +72,24 @@ body .voice-container .voice-states .voice-state {
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] {
-  background-color: #F5BA40;
+  background-color: #22277c;
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .avatar {
-  content: url("https://cdn.discordapp.com/attachments/804136465445290034/814622603074601020/Logo.png");
+  content: url("https://cdn.discordapp.com/attachments/308263318085304321/814625372598566912/Logo4k.png");
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .avatar.speaking {
-  outline-color: #E76DF5;
+  outline-color: #3e45c9;
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .user {
-  background-color: #F5BA40;
+  background-color: #22277c;
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .user:after {
   content: "Mr Olin";
-  color: #4223F5;
+  color: #eaffff;
   font-family: "LeGrosBubu";
 }
 
@@ -97,7 +98,7 @@ body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] {
-  background-color: #F5BA40;
+  background-color: #723875;
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .avatar {
@@ -105,16 +106,16 @@ body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .avatar.speaking {
-  outline-color: #E76DF5;
+  outline-color: #F076F7;
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .user {
-  background-color: #F5BA40;
+  background-color: #723875;
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .user:after {
   content: "Mr Unks";
-  color: #4223F5;
+  color: #EC2CF5;
   font-family: "Trunks";
 }
 

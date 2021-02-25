@@ -44,13 +44,13 @@ $limoges-outline-color: #ec0000;
 $limoges-color: #ECE300;
 $limoges-secondary: #020b13;
 
-$trunks-outline-color: #E76DF5;
-$trunks-color: #4223F5;
-$trunks-secondary: #F5BA40;
+$trunks-outline-color: #F076F7;
+$trunks-color: #EC2CF5;
+$trunks-secondary: #723875;
 
-$bubu-outline-color: #E76DF5;
-$bubu-color: #4223F5;
-$bubu-secondary: #F5BA40;
+$bubu-outline-color: #3e45c9;
+$bubu-color: #eaffff;
+$bubu-secondary: #22277c;
 
 
 body {
@@ -75,6 +75,7 @@ body {
             bottom: 0;
             transform: translateX(-50%);
             left: 50%;
+            margin-bottom: 10px;
 
             .voice-state {
                 width: var(--widthPX);
@@ -90,7 +91,7 @@ body {
                     background-color: $bubu-secondary;
 
                     .avatar {
-                        content: url("https://cdn.discordapp.com/attachments/804136465445290034/814622603074601020/Logo.png");
+                        content: url("https://cdn.discordapp.com/attachments/308263318085304321/814625372598566912/Logo4k.png");
 
                         &.speaking {
                             outline-color: $bubu-outline-color;
