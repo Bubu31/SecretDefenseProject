@@ -98,6 +98,7 @@ body {
                         &.speaking {
                             outline-color: $astymeus-color;
                         }
+                        filter: invert(14%) sepia(94%) saturate(2841%) hue-rotate(192deg) brightness(94%) contrast(99%);
                     }
 
                     .user {

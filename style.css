@@ -80,6 +80,10 @@ body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$325618663
   background-color: #014A84;
 }
 
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$325618663166312459/=1$325618663166312459"] .avatar {
+  filter: invert(14%) sepia(94%) saturate(2841%) hue-rotate(192deg) brightness(94%) contrast(99%);
+}
+
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$325618663166312459/=1$325618663166312459"] .avatar.speaking {
   outline-color: #ECE300;
 }
