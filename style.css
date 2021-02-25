@@ -76,9 +76,12 @@ body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$814589968
   display: none;
 }
 
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$325618663166312459/=1$325618663166312459"] {
+  background-color: #014A84;
+}
+
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$325618663166312459/=1$325618663166312459"] .avatar.speaking {
   outline-color: #ECE300;
-  outline-width: 1px;
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$325618663166312459/=1$325618663166312459"] .user {
