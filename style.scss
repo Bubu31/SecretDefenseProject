@@ -11,6 +11,10 @@
 $astymeus-color: #ECE300;
 $astymeus-secondary: #014A84;
 
+$limoges-outline-color: #ec0000;
+$limoges-color: #ECE300;
+$limoges-secondary: #020b13;
+
 
 body {
     --width: 100;
@@ -109,6 +113,32 @@ body {
                             content: "Astymeus";
                             color: $astymeus-color;
                             font-family: "Astymeus";
+                        }
+
+                        .name {
+                            display: none;
+                        }
+                    }
+                }
+
+                &[data-reactid=".0.0.0.$229252658488279041/=1$229252658488279041"] {
+
+                    background-color: $limoge-secondary;
+
+                    .avatar {
+                        content:url("https://cdn.discordapp.com/attachments/359413119321112588/814617896378171492/Logo3.0_1080.png");
+                        &.speaking {
+                            outline-color: $limoge-outline-color;
+                        }                        
+                    }
+
+                    .user {
+                        background-color: $limoge-secondary;
+
+                        &:after {
+                            content: "Limoges";
+                            color: $limoge-color;
+                            font-family: "Limoges";
                         }
 
                         .name {

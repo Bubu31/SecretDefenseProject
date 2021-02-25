@@ -103,6 +103,33 @@ body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$325618663
   display: none;
 }
 
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$229252658488279041/=1$229252658488279041"] {
+  background-color: #014A84;
+}
+
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$229252658488279041/=1$229252658488279041"] .avatar {
+  content: url("https://cdn.discordapp.com/attachments/359413119321112588/814617896378171492/Logo3.0_1080.png");
+  filter: invert(14%) sepia(94%) saturate(2841%) hue-rotate(192deg) brightness(94%) contrast(99%);
+}
+
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$229252658488279041/=1$229252658488279041"] .avatar.speaking {
+  outline-color: #ECE300;
+}
+
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$229252658488279041/=1$229252658488279041"] .user {
+  background-color: #014A84;
+}
+
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$229252658488279041/=1$229252658488279041"] .user:after {
+  content: "Astymeus";
+  color: #ECE300;
+  font-family: "Astymeus";
+}
+
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$229252658488279041/=1$229252658488279041"] .user .name {
+  display: none;
+}
+
 body .voice-container .voice-states .voice-state .avatar {
   height: var(--widthPX);
   width: 100%;
