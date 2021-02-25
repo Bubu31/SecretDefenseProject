@@ -66,7 +66,7 @@ body .voice-container .voice-states .voice-state .avatar {
   border: 0;
 }
 
-body .voice-container .voice-states .voice-state .avatar .speaking {
+body .voice-container .voice-states .voice-state .avatar.speaking {
   opacity: 1;
   filter: grayscale(0%);
   outline: calc(var(--widthPX) / 20) solid #43b581;

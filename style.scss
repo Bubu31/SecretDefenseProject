@@ -77,7 +77,7 @@ body {
                     transition: filter 0.15s, opacity 0.15s;
                     border: 0;
 
-                    .speaking {
+                    &.speaking {
                         opacity: 1;
                         filter: grayscale(0%);
                         outline: calc(var(--widthPX) / 20) solid #43b581;
