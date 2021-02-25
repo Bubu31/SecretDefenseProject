@@ -20,12 +20,7 @@ ul {
 }
 
 .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .user .name {
-    background-color: #0080ff;
-    position: absolute;
-    bottom: 0px;
-    padding: 0px;
-    height: var(--nameHeight);
-    width: 100%;
+    background-color: #0080ff !important;    
 }
 
 .voice-container .voice-states .voice-state .avatar.speaking {
