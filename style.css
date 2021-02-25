@@ -250,6 +250,28 @@ body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$670270236
   display: none;
 }
 
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$670270236326494248/=1$670270236326494248"] {
+  background-color: #7731C0;
+}
+
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$670270236326494248/=1$670270236326494248"] .avatar.speaking {
+  outline-color: #B46EFD;
+}
+
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$670270236326494248/=1$670270236326494248"] .user {
+  background-color: #7731C0;
+}
+
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$670270236326494248/=1$670270236326494248"] .user:after {
+  content: "Mr Fly";
+  color: #ffffff;
+  font-family: "Fly";
+}
+
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$670270236326494248/=1$670270236326494248"] .user .name {
+  display: none;
+}
+
 body .voice-container .voice-states .voice-state .avatar {
   height: var(--widthPX);
   width: 100%;

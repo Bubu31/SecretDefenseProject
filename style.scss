@@ -80,6 +80,10 @@ $hermana-outline-color:  #F54574;
 $hermana-font: #ffffff;
 $hermana-background: #B81453;
 
+$fly-outline-color:  #B46EFD;
+$fly-font: #ffffff;
+$fly-background: #7731C0;
+
 
 body {
     --width: 100;
@@ -280,6 +284,33 @@ body {
                         }
                     }
                 }//HERMANA
+
+                &[data-reactid=".0.0.0.$670270236326494248/=1$670270236326494248"] {
+
+                    background-color: $fly-background;
+
+                    .avatar {
+                        // content: url("https://cdn.discordapp.com/attachments/692554453966127135/814631494344638515/4cc5dd579f7ff6a0ef5b0f7b9042e5d5-removebg-preview.png");
+
+                        &.speaking {
+                            outline-color: $fly-outline-color;
+                        }
+                    }
+
+                    .user {
+                        background-color: $fly-background;
+
+                        &:after {
+                            content: "Mr Fly";
+                            color: $fly-font;
+                            font-family: "Fly";
+                        }
+
+                        .name {
+                            display: none;
+                        }
+                    }
+                }//FLY
 
                 .avatar {
                     height: var(--widthPX);
