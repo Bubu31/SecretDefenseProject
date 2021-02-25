@@ -39,12 +39,12 @@ body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591
   background-color: red;
 }
 
-body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .user .name {
-  display: none;
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .user:after {
+  content: "LE GROS CON";
 }
 
-body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .user .name:after {
-  content: "LE GROS CON";
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .user .name {
+  display: none;
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$814589968940924928/=1$814589968940924928"] {
@@ -80,6 +80,16 @@ body .voice-container .voice-states .voice-state .user {
   padding: 0px;
   height: var(--nameHeight);
   width: 100%;
+}
+
+body .voice-container .voice-states .voice-state .user:after {
+  font-size: var(--fontSize) !important;
+  padding: 0px;
+  margin: 0px;
+  height: 0;
+  position: relative;
+  display: inline-block;
+  transform: translateY(calc(var(--nameHeight) / 2 - var(--fontSize) / 2));
 }
 
 body .voice-container .voice-states .voice-state .user .name {
