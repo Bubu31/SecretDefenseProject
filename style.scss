@@ -20,13 +20,22 @@
 
 /* latin */
 @font-face {
-    font-family: 'Limoges';
+    font-family: 'Fly';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
     src: url(https://fonts.gstatic.com/s/indieflower/v12/m8JVjfNVeKWVnh3QMuKkFcZVaUuH.woff2) format('woff2');
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+/* latin */
+@font-face {
+    font-family: 'Nounayi';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/righteous/v9/1cXxaUPXBpj2rGoU7C9WiHGF.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
 
 /* latin */
 @font-face {
@@ -63,9 +72,9 @@ $bubu-outline-color: #eaffff;
 $bubu-font: #eaffff;
 $bubu-background: #22277c;
 
-$nounayi-outline-color: #eaffff;
-$nounayi-font: #eaffff;
-$nounayi-background: #22277c;
+$nounayi-outline-color: #00f0ff;
+$nounayi-font: #ffb400;
+$nounayi-background: #6f8485;
 
 $hermana-outline-color:  #F54574;
 $hermana-font: #ffffff;
@@ -223,7 +232,7 @@ body {
                     background-color: $nounayi-background;
 
                     .avatar {
-                        content: url("https://cdn.discordapp.com/attachments/325388975072083979/814621157474566164/YujiroHanma-removebg-preview_1.png");
+                        content: url("https://cdn.discordapp.com/attachments/576512940816072708/814633445019615293/mirai-trunks-chibi-facudibuja-png-clipart.png");
 
                         &.speaking {
                             outline-color: $nounayi-outline-color;
@@ -234,9 +243,9 @@ body {
                         background-color: $nounayi-background;
 
                         &:after {
-                            content: "Mr Moges";
+                            content: "Mr Nayi";
                             color: $nounayi-font;
-                            font-family: "Limoges";
+                            font-family: "Nounayi";
                         }
 
                         .name {
