@@ -45,7 +45,7 @@ $limoges-color: #ECE300;
 $limoges-secondary: #020b13;
 
 $trunks-outline-color: #F076F7;
-$trunks-color: #EC2CF5;
+$trunks-color: #7BACF5;
 $trunks-secondary: #723875;
 
 $bubu-outline-color: #eaffff;
@@ -109,6 +109,7 @@ body {
 
                         .name {
                             display: none;
+                            background-color: darken($bubu-secondary,10%);
                         }
                     }
                 }
