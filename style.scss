@@ -30,7 +30,7 @@ body {
                 position: relative;
                 text-align: center;
 
-                &[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] {
+                &[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] { //BUBU
 
                     .avatar{
                         &.speaking{
@@ -38,9 +38,18 @@ body {
                             outline-width: 1px;
                         }
                     }
-                    //BUBU
                     .user {
                         background-color: blue;
+
+                        &:after {
+                            content: "LeGrosBubu";
+                            color: red;
+                            font-family: "Poppins";
+                        }
+
+                        .name{
+                            display: none;
+                        }
                     }
                 }
 
