@@ -99,7 +99,7 @@ body {
                     }
 
                     .user {
-                        background-color: $bubu-secondary;
+                        background-color: darken($bubu-secondary,10%);
 
                         &:after {
                             content: "Mr Olin";
@@ -109,7 +109,6 @@ body {
 
                         .name {
                             display: none;
-                            background-color: darken($bubu-secondary,10%);
                         }
                     }
                 }
