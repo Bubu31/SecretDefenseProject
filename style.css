@@ -33,6 +33,7 @@ body .voice-container .voice-states .voice-state {
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .avatar.speaking {
   outline-color: blue;
+  outline-width: 1px;
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .user {
