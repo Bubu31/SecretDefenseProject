@@ -10,6 +10,16 @@
 
 /* latin */
 @font-face {
+    font-family: 'Hermana';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* latin */
+@font-face {
     font-family: 'Limoges';
     font-style: normal;
     font-weight: 400;
@@ -37,20 +47,29 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
   }
 
-$astymeus-color: #ECE300;
-$astymeus-secondary: #014A84;
+$astymeus-font: #ECE300;
+$astymeus-outline-color: #ECE300;
+$astymeus-background: #014A84;
 
 $limoges-outline-color: #ec0000;
-$limoges-color: #ECE300;
-$limoges-secondary: #020b13;
+$limoges-font: #ECE300;
+$limoges-background: #020b13;
 
 $trunks-outline-color: #F076F7;
-$trunks-color: #7BACF5;
-$trunks-secondary: #723875;
+$trunks-font: #7BACF5;
+$trunks-background: #723875;
 
 $bubu-outline-color: #eaffff;
-$bubu-color: #eaffff;
-$bubu-secondary: #22277c;
+$bubu-font: #eaffff;
+$bubu-background: #22277c;
+
+$nounayi-outline-color: #eaffff;
+$nounayi-font: #eaffff;
+$nounayi-background: #22277c;
+
+$hermana-outline-color:  #F54574;
+$hermana-font: #ffffff;
+$hermana-background: #B81453;
 
 
 body {
@@ -88,7 +107,7 @@ body {
 
                 &[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] {
 
-                    background-color: $bubu-secondary;
+                    background-color: $bubu-background;
 
                     .avatar {
                         content: url("https://cdn.discordapp.com/attachments/308263318085304321/814625372598566912/Logo4k.png");
@@ -99,11 +118,11 @@ body {
                     }
 
                     .user {
-                        background-color: darken($bubu-secondary,10%);
+                        background-color: darken($bubu-background,10%);
 
                         &:after {
                             content: "Mr Olin";
-                            color: $bubu-color;
+                            color: $bubu-font;
                             font-family: "LeGrosBubu";
                         }
 
@@ -111,11 +130,11 @@ body {
                             display: none;
                         }
                     }
-                }
+                }//BUBU
 
                 &[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] {
 
-                    background-color: $trunks-secondary;
+                    background-color: $trunks-background;
 
                     .avatar {
                         content: url("https://cdn.discordapp.com/attachments/308263318085304321/814627758503493652/mirai-trunks-chibi-facudibuja-png-clipart.png");
@@ -126,11 +145,11 @@ body {
                     }
 
                     .user {
-                        background-color: $trunks-secondary;
+                        background-color: $trunks-background;
 
                         &:after {
                             content: "Mr Unks";
-                            color: $trunks-color;
+                            color: $trunks-font;
                             font-family: "Trunks";
                         }
 
@@ -138,31 +157,31 @@ body {
                             display: none;
                         }
                     }
-                }
+                }//TRUNKS
 
                 &[data-reactid=".0.0.0.$814589968940924928/=1$814589968940924928"] {
                     //BOT
                     display: none;
-                }
+                }//BOT
 
                 &[data-reactid=".0.0.0.$325618663166312459/=1$325618663166312459"] {
 
-                    background-color: $astymeus-secondary;
+                    background-color: $astymeus-background;
 
                     .avatar {
                         content: url("https://cdn.discordapp.com/attachments/359413119321112588/814617896378171492/Logo3.0_1080.png");
 
                         &.speaking {
-                            outline-color: $astymeus-color;
+                            outline-color: $astymeus-outline-color;
                         }
                     }
 
                     .user {
-                        background-color: $astymeus-secondary;
+                        background-color: $astymeus-background;
 
                         &:after {
                             content: "Mr Meus";
-                            color: $astymeus-color;
+                            color: $astymeus-font;
                             font-family: "Astymeus";
                         }
 
@@ -170,11 +189,11 @@ body {
                             display: none;
                         }
                     }
-                }
+                }//MEUS
 
                 &[data-reactid=".0.0.0.$229252658488279041/=1$229252658488279041"] {
 
-                    background-color: $limoges-secondary;
+                    background-color: $limoges-background;
 
                     .avatar {
                         content: url("https://cdn.discordapp.com/attachments/325388975072083979/814621157474566164/YujiroHanma-removebg-preview_1.png");
@@ -185,11 +204,11 @@ body {
                     }
 
                     .user {
-                        background-color: $limoges-secondary;
+                        background-color: $limoges-background;
 
                         &:after {
                             content: "Mr Moges";
-                            color: $limoges-color;
+                            color: $limoges-font;
                             font-family: "Limoges";
                         }
 
@@ -197,7 +216,61 @@ body {
                             display: none;
                         }
                     }
-                }
+                }//LIMOGES
+
+                &[data-reactid=".0.0.0.$516222199288561665/=1$516222199288561665"] {
+
+                    background-color: $nounayi-background;
+
+                    .avatar {
+                        content: url("https://cdn.discordapp.com/attachments/325388975072083979/814621157474566164/YujiroHanma-removebg-preview_1.png");
+
+                        &.speaking {
+                            outline-color: $nounayi-outline-color;
+                        }
+                    }
+
+                    .user {
+                        background-color: $nounayi-background;
+
+                        &:after {
+                            content: "Mr Moges";
+                            color: $nounayi-font;
+                            font-family: "Limoges";
+                        }
+
+                        .name {
+                            display: none;
+                        }
+                    }
+                }//NOUNAYI
+
+                &[data-reactid=".0.0.0.$670270236326494248/=1$670270236326494248"] {
+
+                    background-color: $hermana-background;
+
+                    .avatar {
+                        content: url("https://cdn.discordapp.com/attachments/692554453966127135/814631494344638515/4cc5dd579f7ff6a0ef5b0f7b9042e5d5-removebg-preview.png");
+
+                        &.speaking {
+                            outline-color: $hermana-outline-color;
+                        }
+                    }
+
+                    .user {
+                        background-color: $hermana-background;
+
+                        &:after {
+                            content: "La Lama";
+                            color: $hermana-font;
+                            font-family: "Hermana";
+                        }
+
+                        .name {
+                            display: none;
+                        }
+                    }
+                }//HERMANA
 
                 .avatar {
                     height: var(--widthPX);
