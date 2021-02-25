@@ -30,29 +30,40 @@ body {
                 position: relative;
                 text-align: center;
 
-                &[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] { //BUBU
-                    .user{
+                &[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] {
+
+                    //BUBU
+                    .user {
                         background-color: blue;
                     }
                 }
 
-                &[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] { //TRUNKS
-                    .user{
+                &[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] {
+
+                    //TRUNKS
+                    .user {
                         background-color: red;
-                        .name{
-                            &:after{
-                            content: "LE GROS CON";
+
+                        .name {
+                            display: none;
+                            &:after {
+                                content: "LE GROS CON";
                             }
                         }
-                    }                    
+                    }
                 }
-                
-                &[data-reactid=".0.0.0.$814589968940924928/=1$814589968940924928"] { //BOT
+
+                &[data-reactid=".0.0.0.$814589968940924928/=1$814589968940924928"] {
+                    //BOT
                     display: none;
                 }
 
-                &[data-reactid=".0.0.0.$325618663166312459/=1$325618663166312459"] { //ASTYMEUS
-                    background-color: rgb(255, 0, 221);
+                &[data-reactid=".0.0.0.$325618663166312459/=1$325618663166312459"] {
+
+                    //ASTYMEUS
+                    .user {
+                        background-color: rgb(255, 0, 221);
+                    }
                 }
 
                 .avatar {
@@ -64,6 +75,7 @@ body {
                     filter: grayscale(100%);
                     transition: filter 0.15s, opacity 0.15s;
                     border: 0;
+
                     .speaking {
                         opacity: 1;
                         filter: grayscale(0%);
@@ -72,15 +84,15 @@ body {
                     }
                 }
 
-                .user{
+                .user {
                     background-color: #1e2124;
                     position: absolute;
                     bottom: 0px;
                     padding: 0px;
                     height: var(--nameHeight);
-                    width: 100%; 
+                    width: 100%;
 
-                    .name{
+                    .name {
                         font-size: var(--fontSize) !important;
                         padding: 0px;
                         margin: 0px;
@@ -97,4 +109,3 @@ body {
 
 
 }
-
