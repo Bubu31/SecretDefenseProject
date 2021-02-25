@@ -70,29 +70,29 @@ body .voice-container .voice-states .voice-state {
   text-align: center;
 }
 
-body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] {
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] {
   background-color: #F5BA40;
 }
 
-body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .avatar {
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .avatar {
   content: url("https://cdn.discordapp.com/attachments/804136465445290034/814622603074601020/Logo.png");
 }
 
-body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .avatar.speaking {
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .avatar.speaking {
   outline-color: #E76DF5;
 }
 
-body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .user {
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .user {
   background-color: #F5BA40;
 }
 
-body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .user:after {
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .user:after {
   content: "Mr Olin";
   color: #4223F5;
   font-family: "LeGrosBubu";
 }
 
-body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .user .name {
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .user .name {
   display: none;
 }
 
