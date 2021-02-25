@@ -8,7 +8,11 @@ body {
   overflow: hidden;
 }
 
-ul {
+body .voice-container .voice-states {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   margin-block-start: 0;
   margin-block-end: 0;
   position: absolute;
@@ -17,21 +21,7 @@ ul {
   left: 50%;
 }
 
-.voice-container .voice-states .voice-state .avatar.speaking {
-  opacity: 1;
-  filter: grayscale(0%);
-  outline: calc(var(--widthPX) / 20) solid #43b581;
-  outline-offset: calc(var(--widthPX) / 20 * -1);
-}
-
-.voice-container .voice-states {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-}
-
-.voice-container .voice-states .voice-state {
+body .voice-container .voice-states .voice-state {
   width: var(--widthPX);
   height: var(--height);
   margin: 0px 5px;
@@ -41,7 +31,11 @@ ul {
   text-align: center;
 }
 
-.voice-container .voice-states .voice-state .avatar {
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .user {
+  background-color: blue;
+}
+
+body .voice-container .voice-states .voice-state .avatar {
   height: var(--widthPX);
   width: 100%;
   border-radius: 0;
@@ -52,7 +46,14 @@ ul {
   border: 0;
 }
 
-.voice-container .voice-states .voice-state .user {
+body .voice-container .voice-states .voice-state .avatar .speaking {
+  opacity: 1;
+  filter: grayscale(0%);
+  outline: calc(var(--widthPX) / 20) solid #43b581;
+  outline-offset: calc(var(--widthPX) / 20 * -1);
+}
+
+body .voice-container .voice-states .voice-state .user {
   background-color: #1e2124;
   position: absolute;
   bottom: 0px;
@@ -61,7 +62,7 @@ ul {
   width: 100%;
 }
 
-.voice-container .voice-states .voice-state .user .name {
+body .voice-container .voice-states .voice-state .user .name {
   font-size: var(--fontSize) !important;
   padding: 0px;
   margin: 0px;
@@ -69,8 +70,4 @@ ul {
   position: relative;
   display: inline-block;
   transform: translateY(calc(var(--nameHeight) / 2 - var(--fontSize) / 2));
-}
-
-.voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .user {
-  background-color: #0080ff !important;
 }
