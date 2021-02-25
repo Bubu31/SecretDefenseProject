@@ -35,6 +35,22 @@ body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847
   background-color: blue;
 }
 
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .user {
+  background-color: blue;
+}
+
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .user .name {
+  content: "LE GROS CON";
+}
+
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$814589968940924928/=1$814589968940924928"] {
+  display: none;
+}
+
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$325618663166312459/=1$325618663166312459"] {
+  display: none;
+}
+
 body .voice-container .voice-states .voice-state .avatar {
   height: var(--widthPX);
   width: 100%;
