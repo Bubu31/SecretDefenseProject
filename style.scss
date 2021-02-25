@@ -92,9 +92,10 @@ body {
 
                 &[data-reactid=".0.0.0.$325618663166312459/=1$325618663166312459"] {
 
-                    background-color: $astymeus-secondary;
+                    // background-color: $astymeus-secondary;
 
                     .avatar {
+                        content:url("http://imgur.com/SZ8Cm.jpg");
                         &.speaking {
                             outline-color: $astymeus-color;
                         }
