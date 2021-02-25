@@ -32,6 +32,11 @@ body {
 
                 &[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] {
 
+                    .avatar{
+                        &.speaking{
+                            outline-color: blue;
+                        }
+                    }
                     //BUBU
                     .user {
                         background-color: blue;

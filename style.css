@@ -31,6 +31,10 @@ body .voice-container .voice-states .voice-state {
   text-align: center;
 }
 
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .avatar.speaking {
+  outline-color: blue;
+}
+
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .user {
   background-color: blue;
 }
