@@ -5,7 +5,7 @@ body {
     --height: calc(var(--widthPX) * 1.25);
     --nameHeight: calc(var(--height) - var(--widthPX));
     --fontSize: calc((var(--widthPX) / 100) * 15);
-    background-color: red;
+
     width: 100%;
     overflow: hidden;
 }
@@ -17,6 +17,15 @@ ul {
     bottom: 0;
     transform: translateX(-50%);
     left: 50%;
+}
+
+.voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .user .name {
+    background-color: #0080ff;
+    position: absolute;
+    bottom: 0px;
+    padding: 0px;
+    height: var(--nameHeight);
+    width: 100%;
 }
 
 .voice-container .voice-states .voice-state .avatar.speaking {
