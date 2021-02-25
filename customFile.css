@@ -5,7 +5,6 @@ body {
     --height: calc(var(--widthPX) * 1.25);
     --nameHeight: calc(var(--height) - var(--widthPX));
     --fontSize: calc((var(--widthPX) / 100) * 15);
-
     width: 100%;
     overflow: hidden;
 }
@@ -17,10 +16,6 @@ ul {
     bottom: 0;
     transform: translateX(-50%);
     left: 50%;
-}
-
-.voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .user .name {
-    background-color: #0080ff !important;    
 }
 
 .voice-container .voice-states .voice-state .avatar.speaking {
@@ -71,11 +66,15 @@ ul {
 
 .voice-container .voice-states .voice-state .user .name {
     font-size: var(--fontSize) !important;
-    background-color: red !important;
     padding: 0px;
     margin: 0px;
     height:0;
     position: relative;
     display: inline-block;
     transform: translateY(calc(var(--nameHeight) / 2 - var(--fontSize) / 2));
+}
+
+
+.voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847822692353/=1$297382847822692353"] .user {
+    background-color: #0080ff !important;    
 }
