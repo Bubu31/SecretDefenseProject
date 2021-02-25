@@ -38,9 +38,11 @@ body {
 
                 &[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] { //TRUNKS
                     .user{
-                        background-color: blue;
+                        background-color: red;
                         .name{
+                            &:after{
                             content: "LE GROS CON";
+                            }
                         }
                     }                    
                 }
@@ -50,7 +52,7 @@ body {
                 }
 
                 &[data-reactid=".0.0.0.$325618663166312459/=1$325618663166312459"] { //ASTYMEUS
-                    display: none;
+                    background-color: rgb(255, 0, 221);
                 }
 
                 .avatar {

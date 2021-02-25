@@ -36,10 +36,10 @@ body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$297382847
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .user {
-  background-color: blue;
+  background-color: red;
 }
 
-body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .user .name {
+body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$301401591334961153/=1$301401591334961153"] .user .name:after {
   content: "LE GROS CON";
 }
 
@@ -48,7 +48,7 @@ body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$814589968
 }
 
 body .voice-container .voice-states .voice-state[data-reactid=".0.0.0.$325618663166312459/=1$325618663166312459"] {
-  display: none;
+  background-color: #ff00dd;
 }
 
 body .voice-container .voice-states .voice-state .avatar {
